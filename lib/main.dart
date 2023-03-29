@@ -10,11 +10,9 @@ void main() {
           backgroundColor: Colors.blueGrey[900],
         ),
         body: Center(
-          child: Image(
-            image:
-                NetworkImage('https://cdn.wallpapersafari.com/70/1/yGSYxk.jpg'),
-          ),
-        ),
+            child: Image(
+          image: AssetImage('assets/images/diamond.png'),
+        )),
       ),
     ),
   );
